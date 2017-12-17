@@ -47,12 +47,8 @@ abbr,acronym { border: 0;
 
 /* Custom CSS
  * --------------------------------------- */
-@font-face {
-  font-family: OpenSans;
-  src: url("OpenSans-Regular.ttf");
-}
 body{
-	font-family: OpenSans;
+	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -243,6 +239,10 @@ p{
 figcaption {
   text-align: center;
   font-size: 200%;
+}
+
+img {
+  max-width: 100%
 }
 
 
